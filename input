@@ -1,0 +1,170 @@
+Script started on 2022-11-09 11:37:09+01:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="74" LINES="43"]
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ gi [Kt checkout feature/add-sc[K[Kfil es
+error: le spécificateur de chemin 'feature/add-files' ne correspond à aucun fichier connu de git
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git checkout feature/add-files[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-feature/add-files[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbfeature/add-files[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C feature/add-files[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+Basculement sur la nouvelle branche 'feature/add-files'
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ gi[K[Keech[K[K[Kcho "I spend the days of my  vanity" > bonny.txt
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git status
+Sur la branche feature/add-files
+
+Aucun commit
+
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
+	[31mbonny.txt[m
+	[31minput[m
+
+aucune modification ajoutée à la validation mais des fichiers non suivis sont présents (utilisez "git add" pour les suivre)
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git add bonny.txt
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git add bonny.txt[K[K[K[K[K[K[K[K[Kinput
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git commit -m "Add script an d a really good song"
+[feature/add-files (commit racine) a480442] Add script and a really good song
+ 2 files changed, 1 insertion(+)
+ create mode 100644 bonny.txt
+ create mode 100644 input
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git push
+fatal: La branche courante feature/add-files n'a pas de branche amont.
+Pour pousser la branche courante et définir la distante comme amont, utilisez
+
+    git push --set-upstream origin feature/add-files
+
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git push origin/[K[K[K[K[K[K[Kfeature/add-files
+fatal: 'feature/add-files' does not appear to be a git repository
+fatal: Impossible de lire le dépôt distant.
+
+Veuillez vérifier que vous avez les droits d'accès
+et que le dépôt existe.
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git push feature/add-files[1Peature/add-files[1Pature/add-files[1Pture/add-files[1Pure/add-files[1Pre/add-files[1Pe/add-files[1P/add-files[1Padd-files[1Pdd-files[C[1P-files[1P-files[1Pfiles[1Piles[1Ples[1Pes[1Ps[Korigin
+fatal: La branche courante feature/add-files n'a pas de branche amont.
+Pour pousser la branche courante et définir la distante comme amont, utilisez
+
+    git push --set-upstream origin feature/add-files
+
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git push origin origi[K[K[K[K[Kfeature/add- files
+Username for 'https://github.com': elliottlepine
+Password for 'https://elliottlepine@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/elliottlepine/PremierDepot.git/'
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ gh
+
+La commande « gh » n'a pas été trouvée, mais peut être installée avec :
+
+snap install gh       # version 2.6.0-15-g1a10fd5a, or
+apt  install gitsome  # version 0.8.0+ds-4
+
+Voir « snap info gh » pour des versions additionelles.
+
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git remote set-url origin https://github.com/elliottlepine/PremierDepot
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git remote set-url origin https://github.com/elliottlepine/PremierDepot[A[C[C[C[Ch[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cit push origin feature/add-files
+Username for 'https://github.com': elliottlepine
+Password for 'https://elliottlepine@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Échec d'authentification pour 'https://github.com/elliottlepine/PremierDepot/'
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git push origin feature/add-files
+Username for 'https://github.com': elliottlepine
+Password for 'https://elliottlepine@github.com': 
+Énumération des objets: 4, fait.
+Décompte des objets:  25% (1/4)Décompte des objets:  50% (2/4)Décompte des objets:  75% (3/4)Décompte des objets: 100% (4/4)Décompte des objets: 100% (4/4), fait.
+Compression par delta en utilisant jusqu'à 4 fils d'exécution
+Compression des objets:  50% (1/2)Compression des objets: 100% (2/2)Compression des objets: 100% (2/2), fait.
+Écriture des objets:  25% (1/4)Écriture des objets:  50% (2/4)Écriture des objets:  75% (3/4)Écriture des objets: 100% (4/4)Écriture des objets: 100% (4/4), 317 octets | 79.00 Kio/s, fait.
+Total 4 (delta 0), réutilisés 0 (delta 0)
+To https://github.com/elliottlepine/PremierDepot
+ * [new branch]      feature/add-files -> feature/add-files
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git pull
+remote: Enumerating objects: 4, done.[K
+remote: Counting objects:  25% (1/4)[Kremote: Counting objects:  50% (2/4)[Kremote: Counting objects:  75% (3/4)[Kremote: Counting objects: 100% (4/4)[Kremote: Counting objects: 100% (4/4), done.[K
+remote: Compressing objects:  33% (1/3)[Kremote: Compressing objects:  66% (2/3)[Kremote: Compressing objects: 100% (3/3)[Kremote: Compressing objects: 100% (3/3), done.[K
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0[K
+Dépaquetage des objets:  33% (1/3)Dépaquetage des objets:  66% (2/3)Dépaquetage des objets: 100% (3/3)Dépaquetage des objets: 100% (3/3), 1.23 Kio | 27.00 Kio/s, fait.
+Depuis https://github.com/elliottlepine/PremierDepot
+   a480442..45feede  feature/add-files -> origin/feature/add-files
+Pas d'information de suivi distant pour la branche actuelle.
+Veuillez spécifier une branche avec laquelle fusionner.
+Référez-vous à git-pull(1) pour de plus amples détails.
+
+    git pull <distant> <branche>
+
+Si vous souhaitez indiquer l'information de suivi distant pour cette branche, vous pouvez le faire avec :
+
+    git branch --set-upstream-to=origin/<branche> feature/add-files
+
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git pull feature/add-files
+fatal: 'feature/add-files' does not appear to be a git repository
+fatal: Impossible de lire le dépôt distant.
+
+Veuillez vérifier que vous avez les droits d'accès
+et que le dépôt existe.
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git pull feature/add-files[K
+fatal: 'feature/add-file' does not appear to be a git repository
+fatal: Impossible de lire le dépôt distant.
+
+Veuillez vérifier que vous avez les droits d'accès
+et que le dépôt existe.
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ git pull feature/add-fileofeature/add-filerfeature/add-fileifeature/add-file [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgfeature/add-file[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifeature/add-file[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfeature/add-file[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C feature/add-file[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[Cs
+Depuis https://github.com/elliottlepine/PremierDepot
+ * branch            feature/add-files -> FETCH_HEAD
+Mise à jour a480442..45feede
+Fast-forward
+ carsandgirls.txt | 49 [32m+++++++++++++++++++++++++++++++++++++++++++++++++[m
+ 1 file changed, 49 insertions(+)
+ create mode 100644 carsandgirls.txt
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ cat carsandgirls.txt
+Brucie dreams, life's a highway
+Too many roads bypass my way
+Or they never begin
+Innocence coming to grief
+At the hands of life - stinkin' car thief
+That's my concept of sin
+Does heaven wait all heavenly
+Over the next horizon? Ah!
+But look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Just look at us now, (Start counting)
+What adds up the way it did when we were young?
+Just look at us now, (Quit driving)
+Some things hurt more much more than Cars and Girls
+Life's a drive through a dust bowl
+What's it do, do to a young soul
+We are deeply concerned
+Someone stops for directions
+Something responds deep in our engines
+We have all been burned
+Will heaven wait all heavenly
+Over the next horizon? Ah
+But look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Just look at us now, (Start counting)
+What adds up the way it did when we were young?
+Look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Little boy got a hot rod
+Thinks it makes him some kind of new god
+Well this is one race he won't win ('Cause life's no cruise-)
+'Cause life's no cruise with a cool chick
+Too many folks feelin' car sick
+But it never pulls in
+Brucies thoughts, pretty streamers
+Guess this world needs its dreamers
+May they never wake up, ok
+But look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Just look at us now, (Start counting)
+What adds up the way it did when we were young?
+Just look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Just look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+Look at us now, (Start counting)
+What adds up the way it did when we were young?
+Look at us now, (Quit driving)
+Some things hurt more, much more than Cars and Girls
+uapv2102160@ad.univ-avignon.fr@e-mc026-11:/mnt/data/uapv2102160@ad.univ-avignon.fr/Mes documents/L3/genie/PremierDepot$ exit
+exit
+
+Script done on 2022-11-09 11:52:29+01:00 [COMMAND_EXIT_CODE="0"]
